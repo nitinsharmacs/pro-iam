@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pro-iam"
+version = "0.1.0"
+description = ""
+authors = ["Nitin Sharma <48169425+nitinsharmacs@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
